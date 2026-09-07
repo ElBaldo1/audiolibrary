@@ -1,9 +1,27 @@
+# Local agent instructions
+AGENTS.md
+agents.md
+
+# Dependencies and build output
 node_modules/
 build/
+dist/
+coverage/
+target/
+*.tsbuildinfo
+
+# Local configuration and secrets
 .env
 .env.*
+!.env.example
+!.env.*.example
+*.log
+
+# Editors and operating systems
 .DS_Store
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-coverage/
+.idea/
+.vscode/
+*.iml
+
+# Local runtime data
+.data/
