@@ -25,3 +25,4 @@ target/
 
 # Local runtime data
 .data/
+AGENTS.md
