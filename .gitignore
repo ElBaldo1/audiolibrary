@@ -9,20 +9,41 @@ dist/
 coverage/
 target/
 *.tsbuildinfo
+*.class
+
+# Frontend tool caches
+.npm/
+.vite/
+.vite-temp/
+.eslintcache
 
 # Local configuration and secrets
 .env
 .env.*
 !.env.example
 !.env.*.example
+/backend/src/main/resources/application-local.properties
+/backend/src/main/resources/application-local.yml
+/backend/src/main/resources/application-local.yaml
+
+# Logs and JVM diagnostic dumps
+logs/
 *.log
+*.log.*
+*.hprof
 
 # Editors and operating systems
 .DS_Store
+._*
+Thumbs.db
+Desktop.ini
 .idea/
 .vscode/
 *.iml
+*.swp
+*.swo
 
 # Local runtime data
 .data/
-AGENTS.md
+*.mv.db
+*.trace.db
