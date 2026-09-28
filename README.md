@@ -6,6 +6,8 @@ AudioLibrary lets you upload audiobooks, browse and search your library, listen 
 
 Developed by **Antonio Baldari** · [Portfolio](https://baldari.dev) · [MIT license](LICENSE)
 
+The first version of this app was built in collaboration with [Michele Leggieri](https://github.com/MikeLeg01).
+
 [Architecture](docs/architecture.md) · [Engineering case study](docs/review.md) · [API reference](docs/api.md) · [Security](docs/security.md)
 
 ## What you can do
@@ -114,5 +116,7 @@ H2 is the verified local evaluation environment. A MySQL deployment needs a revi
 ## Author and license
 
 **Antonio Baldari** · [baldari.dev](https://baldari.dev)
+
+First version built in collaboration with [Michele Leggieri](https://github.com/MikeLeg01).
 
 Distributed under the [MIT license](LICENSE).
